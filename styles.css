@@ -1,0 +1,11 @@
+/* css styles */
+
+/* 탭의 크기 조정 */
+.nav.nav-tabs li {
+    font-size: 18px; /* 폰트 크기 조정 */
+}
+
+/* 탭의 패딩 조정 */
+.nav.nav-tabs li a {
+    padding: 10px 20px; /* 탭 버튼의 내부 여백 조정 */
+}
