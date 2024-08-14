@@ -192,7 +192,7 @@ map_ames
 ```
 
 # Education
-## Row{.tabset}
+## Row {width="50%"}
 ```{python}
 #| output: false
 import pandas as pd
@@ -217,6 +217,7 @@ fig.update_layout(
     dragmode='select'   # 드래그 모드 설정
 )
 ```
+
 ```{python}
 #| title: 전공 선호도
 fig.show()
@@ -260,7 +261,7 @@ fig_major.update_layout(
 fig_major.show()
 ```
 
-## Row {.tabset}
+## Row {width="50%"}
 ```{python}
 #| output: false
 
