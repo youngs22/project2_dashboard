@@ -54,6 +54,13 @@ fig1 = px.bar(
     barmode='stack'
 )
 
+fig1.update_layout(
+    showlegend=True,
+    legend=dict(
+        orientation="h"
+    )
+)
+
 ```
 ```{python}
 #| output: false
@@ -69,6 +76,13 @@ fig2 = px.bar(
     title='연도별 외장재',
     color="Exterior_1st",
     labels={'Exterior_1st': 'Exterior', 'count_ext': 'Count'}
+)
+
+fig2.update_layout(
+    showlegend=True,
+    legend=dict(
+        orientation="h"
+    )
 )
 
 ```
